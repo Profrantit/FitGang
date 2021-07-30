@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
+import Image from "next/image";
 
 export default function index() {
   return (
@@ -27,7 +28,7 @@ export default function index() {
               bird)
             </li>
             <li>d) Chair dips - 10-20</li>
-            <img src="/upperbody.jpeg" />
+            <Image width={300} height={300} src="/upperbody.jpeg" />
           </ul>
         </Grid>
         <Grid item lg={6}>
@@ -42,7 +43,7 @@ export default function index() {
               floor)
             </li>
             <li>d) Left Crunch - 20 (Right elbow to the left knee)</li>
-            <img src="/abs.jpg" style={{ height: "300px", width: "300px" }} />
+            <Image alt="abs" width={300} height={300} src="/abs.jpg" />
           </ul>
         </Grid>
       </Grid>
