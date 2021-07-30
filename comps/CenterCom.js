@@ -10,7 +10,7 @@ export default function CenterCom() {
       <Paper className={styles.centerC} variant="elevation">
         <br />
         <div>
-          <h1 className={styles.overTitle}>This is the center text</h1>
+          <h1 className={styles.overTitle}>Welcome to GangFit</h1>
           <h2 className={styles.overTitle}>Find out more below</h2>
           <hr style={{ maxWidth: "300px" }} />
         </div>
