@@ -12,7 +12,7 @@ export default function CenterCom() {
         <div>
           <h1 className={styles.overTitle}>Welcome to GangFit</h1>
           <h2 className={styles.overTitle}>Find out more below</h2>
-          <hr style={{ maxWidth: "300px" }} />
+          <hr style={{ maxWidth: "299px" }} />
         </div>
         <CenterTop />
       </Paper>
