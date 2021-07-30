@@ -1,20 +1,16 @@
 import Link from "next/link";
+import Ham from "./Ham";
 
 const Navbar = () => {
   return (
     <nav>
-      <div className="logo">
-        <h1>GangFit</h1>
-      </div>
       <Link href="/">
-        <a>Home</a>
+        <div className="logo">
+          <h1>GangFit</h1>
+        </div>
       </Link>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-      <Link href="/workouts/">
-        <a>Workouts Listing</a>
-      </Link>
+
+      <Ham />
     </nav>
   );
 };

@@ -1,19 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 .title {
   display: flex;
+  margin-top: 50px;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 .hero {
-  background-image: url("/fottie.jpg");
+  background-image: url("/lift.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  marginbackground-position: center;
   background-repeat: no-repeat;
-  height: 90vh;
-  display: flex;
-  max-height: 1300px;
-  min-height: 600px;
-  align-items: center;
+  background-size: cover;
+  margin-top: -134px;
 }
 .heroContent {
-  color: black;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 600px;
   display: flex;
   padding: 0 16px;
   max-width: 960px;
@@ -30,7 +38,7 @@
   min-height: 50px;
   margin-top: 36px;
   background: #f2aa4cff;
-  color: white;
+  color: black;
   border: none;
 
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -62,7 +70,7 @@
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
-  color: white;
+  color: black;
   background-color: black;
   text-align: center;
   cursor: pointer;

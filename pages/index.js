@@ -5,6 +5,8 @@ import styles from "../styles/Home.module.css";
 import Hero from "../comps/Hero";
 import CenterCom from "../comps/CenterCom";
 import WorkoutCard from "../comps/WorkoutCard";
+import Cooking from "../comps/Cooking";
+import CookingTwo from "../comps/CookingTwo";
 
 export async function getStaticProps() {
   const client = createClient({
@@ -25,6 +27,9 @@ export default function Home({ workouts }) {
       <div>
         <Hero />
         <CenterCom />
+        <h1 className={styles.title}>
+          Find out more about these workouts below:
+        </h1>
         {/*the workout component */}
         <div className="workouts-list">
           {workouts.map(workouts => (
@@ -41,22 +46,6 @@ export default function Home({ workouts }) {
           </style>
         </div>
         {/*the workout component */}
-        <h1 className={styles.title}>Homepage</h1>
-        <p className={styles.text}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi
-          impedit suscipit architecto, odio inventore nostrum non neque dicta.
-          Quam magni accusantium culpa distinctio tempore iure accusamus,
-          dolorem nobis odit.
-        </p>
-        <p className={styles.text}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi
-          impedit suscipit architecto, odio inventore nostrum non neque dicta.
-          Quam magni accusantium culpa distinctio tempore iure accusamus,
-          dolorem nobis odit.
-        </p>
-        <Link href="/workouts/">
-          <a className={styles.btn}>See Workout Listing</a>
-        </Link>
       </div>
     </>
   );
